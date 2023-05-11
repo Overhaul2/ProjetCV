@@ -57,7 +57,7 @@ body {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border:2px solid var(--grey);
+    border: 2px solid var(--grey);
 }
 
 /*  */
@@ -98,15 +98,16 @@ body {
     list-style: none;
     margin: 10px;
     cursor: pointer;
-    
+
 }
 
 .contactInfo ul li span {
     color: var(--grey);
     font-weight: 300;
 }
+
 /* Langue */
-.langueInfo.langue .percent{
+.langueInfo.langue .percent {
     position: relative;
     width: 100%;
     height: 6px;
@@ -114,14 +115,16 @@ body {
     display: block;
     margin-top: 5px;
 }
-.langueInfo.langue .percent pbar{
+
+.langueInfo.langue .percent pbar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background: var(--cl-bleu);
-    
+
 }
+
 .langueInfo ul {
     position: relative;
 }
@@ -137,6 +140,7 @@ body {
     color: var(--grey);
     font-weight: 300;
 }
+
 /* Fin langue */
 /* Coté droite du cv */
 .container .right_side {
@@ -144,10 +148,10 @@ body {
     background: var(--grey);
     padding: 40px;
 }
+
 /* TITRE DU POSTE */
 
-.title2
-{
+.title2 {
     color: var(--bleu);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -155,19 +159,22 @@ body {
     border-bottom: 3px solid var(--bleu);
 
 }
-p{
+
+p {
     color: #5061F9;
 }
+
 /* FIN TITRE DU POSTE  */
 /* EXPERIENCE  */
-.experienceInfo.experience 
-{
+.experienceInfo.experience {
     padding-top: 40px;
 }
-.experienceInfo ul{
+
+.experienceInfo ul {
     position: relative;
 }
-.experienceInfo ul li{
+
+.experienceInfo ul li {
     position: relative;
     list-style: none;
     margin: 5px;
@@ -177,23 +184,43 @@ p{
 
 /* FIN EXPERIENCE */
 /* FORMATION  */
-.formationinfo.formation{
+.formationinfo.formation {
     padding-top: 40px;
 }
+
 .formationinfo.formation ul {
     position: relative;
 }
-.formationinfo.formation ul li{
+
+.formationinfo.formation ul li {
     position: relative;
     list-style: none;
     color: var(--bleu);
     cursor: pointer;
     margin: 5px;
 }
-.formationinfo.formation ul li .cv{
+
+.formationinfo.formation ul li .cv {
     display: flex;
     flex-direction: row;
 }
-/* FIN FORMATION  */
 
+/* FIN FORMATION  */
+/* LOISIR  */
+.loisir {
+    display: inline;
+    position: relative;
+
+}
+
+.loisir img {
+    width: 60px;
+
+}
+
+.loisir .img2 {
+    width: 50px;
+}
+
+/* FIN DES LOISIR  */
 /* Fin coté droite du cv */
