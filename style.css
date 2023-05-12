@@ -114,8 +114,6 @@ body {
     display: block;
     margin-top: 5px;
 }
-
-<<<<<<< HEAD
 .langueInfo.langue .percent {
     position: relative;
     top: 0;
@@ -134,15 +132,12 @@ body {
 }
 .langueInfo.langue .percent.ac{
     background: linear-gradient(to right, blue 50%, grey 50% );
-=======
 .langueInfo.langue .percent pbar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background: var(--cl-bleu);
->>>>>>> 35f09c9850fbefddca4ee77b8d56b58cb5811070
-
 }
 
 .langueInfo ul {
@@ -160,7 +155,6 @@ body {
     color: var(--grey);
     font-weight: 300;
 }
-<<<<<<< HEAD
 .langueInfo.langue .percent.ad{
     background: linear-gradient(to right, blue 70%, grey 30% );
 
@@ -169,12 +163,12 @@ body {
     background: linear-gradient(to right, blue 85%, grey 15% );
 
 }
-=======
 
->>>>>>> 35f09c9850fbefddca4ee77b8d56b58cb5811070
+
 /* Fin langue */
 /* Coté droite du cv */
-.container .right_side {
+.container .right_side
+{
     position: relative;
     background: var(--grey);
     padding: 40px;
@@ -189,11 +183,6 @@ body {
     margin-bottom: 10px;
     border-bottom: 3px solid var(--bleu);
 }
-
-p {
-    color: #5061F9;
-}
-
 /* FIN TITRE DU POSTE  */
 /* EXPERIENCE  */
 .experienceInfo.experience {
@@ -252,11 +241,6 @@ p {
 
 .loisir .img2 {
     width: 50px;
-<<<<<<< HEAD
     margin-left: 20px;
-=======
->>>>>>> 35f09c9850fbefddca4ee77b8d56b58cb5811070
 }
-
-/* FIN DES LOISIR  */
-/* Fin coté droite du cv */
+/*FIN DES LOISIR*/
