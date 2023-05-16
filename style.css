@@ -130,7 +130,7 @@ body {
 
 }
 .langueInfo.langue .percent.ac{
-    background: linear-gradient(to right, blue 50%, grey 50% );
+    background: linear-gradient(to right, blue 50%, grey 50% );}
 .langueInfo.langue .percent pbar {
     position: absolute;
     top: 0;
