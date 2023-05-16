@@ -158,11 +158,11 @@ body {
     font-weight: 300;
 }
 .langueInfo.langue .percent.ad{
-    background: linear-gradient(to right, blue 70%, grey 30% );
+    background: linear-gradient(to right, rgb(255, 102, 0) 70%, grey 30% );
 
 }
 .langueInfo.langue .percent.ae{
-    background: linear-gradient(to right, blue 85%, grey 15% );
+    background: linear-gradient(to right, rgb(247, 135, 8) 85%, grey 15% );
 
 }
 
@@ -245,7 +245,7 @@ body {
     display: inline-block;
 }
 .loisir .img2 {
-    width: 50px;
+    width: 68px;
     margin-left: 20px;
 }
 /*FIN DES LOISIR*/
