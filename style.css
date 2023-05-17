@@ -187,7 +187,7 @@ body {
     border-bottom: 3px solid var(--bleu);
 }
 /* FIN TITRE DU POSTE  */
-/* EXPERIENCE  */
+/* EXPERIENCE et FORMATION */
 .formationinfo.formation{
     padding-top: 40px;
 }
@@ -196,6 +196,7 @@ body {
     border-left: 2px solid var(--dark-grey);
     padding-left: 20px;
     position: relative;
+    display: block;
 }
 .title-poste::before
 {
@@ -224,11 +225,12 @@ body {
 .row
 {
     display: flex;
-    overflow: auto;
+
 }
 .row .barre-gauche
 {
     padding-right: 50px;
+    display: block;
 }
 .barre-gauche p
 {
@@ -260,7 +262,7 @@ body {
     margin-left: 10px;
 } */
 
-/* FIN EXPERIENCE */
+/* FIN EXPERIENCE  ET FORMATION*/
 /* FORMATION  */
 /* .formationinfo.formation {
     padding-top: 40px;
@@ -305,3 +307,21 @@ body {
     margin-left: 20px;
 }
 /*FIN DES LOISIR*/
+
+
+/* RENDRE RESPPONSIVE  */
+/* Styles pour les écrans plus petits que 600 pixels de large */
+@media screen and (max-width: 600px) {
+    /* Ajoutez ici vos styles spécifiques pour les petits écrans */
+  }
+  
+  /* Styles pour les écrans de 601 à 900 pixels de large */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    /* Ajoutez ici vos styles spécifiques pour les écrans de taille moyenne */
+  }
+  
+  /* Styles pour les écrans plus grands que 900 pixels de large */
+  @media screen and (min-width: 901px) {
+    /* Ajoutez ici vos styles spécifiques pour les grands écrans */
+  }
+  
