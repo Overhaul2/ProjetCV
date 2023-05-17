@@ -187,7 +187,57 @@ body {
 }
 /* FIN TITRE DU POSTE  */
 /* EXPERIENCE  */
-.experienceInfo.experience {
+.barre-droite
+{
+    border-left: 2px solid var(--dark-grey);
+    padding-left: 20px;
+    position: relative;
+}
+.title-poste::before
+{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--bleu);
+    position: absolute;
+    left: -6px;
+}
+.barre-droite .title-poste 
+{
+    color: var(--bleu);
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.barre-droite .title-soc
+{
+    font-weight: bold;
+    margin: 0px;
+}
+.title-detail
+.row
+{
+    display: flex;
+}
+.row .barre-gauche
+{
+    padding-right: 50px;
+}
+.barre-gauche p
+{
+    margin-top: 0px;
+}
+.m-bottom
+{
+    margin-bottom: 0px;
+}
+.m-top
+{
+    margin-top: 0px;
+}
+/* .experienceInfo.experience {
     padding-top: 40px;
 }
 
@@ -202,7 +252,7 @@ body {
     color: var(--bleu);
     cursor: pointer;
     margin-left: 10px;
-}
+} */
 
 /* FIN EXPERIENCE */
 /* FORMATION  */
